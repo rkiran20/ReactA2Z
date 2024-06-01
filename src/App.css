@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.gameHeader{
+  text-align: center;
+  padding: 10px 0;
+  margin: 0px;
+  border: 3px solid #AFDDE5;
+  background-color: #0FA4AF;
+  color: #964734;
+  text-shadow: 2px 0 0 #5b5553;
+  font-family: 'Exo 2';
+}
+.blockDiv{
+  height: 40px;
+  width: 40px;
+  border: 2px solid #AFDDE5;
+  border-radius: 5px;
+}
+
+
+
+.blockCardDiv{
+  display: flex;
+
+}
+
+.blockCardDiv2{
+  margin: 4px;
+}
+
+.blockCardDiv1{
+  margin-left: 60px;
+}
+
+.correctPlaced{
+  background-color: rgb(106, 236, 106);
+}
+
+.misPlaced{
+  background-color: rgb(136, 101, 36);
+}
+
+.wrongPlaced{
+  background-color: rgb(209, 106, 106);
+}
+
+.blockDiv1{
+  padding-left: 650px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #024950;
+}
+
+.blockDiv1_div{
+  position: absolute;
+  top: 120px;
+  right: 40px;
+  font-size: 3rem;
+  width: 500px;
+  color: rgb(228, 225, 225);
+  font-family: 'Exo 2';
+}
+
+.label{
+  display: block;
+  font-size: 2rem;
+  font-family: 'Exo 2';
+  padding: 20px;
+  color: #050A44;
+}
+.searchDiv{
+  text-align: center;
+  background-color: rgb(1, 78, 97,0.5);
+  padding-bottom: 50px;
+  padding-top: 25px;
+  justify-content: space-between;
+}
+
+.input{
+  border-radius: 6px;
+  height: 10px;
+  padding: 10px;
+  font-size: 1.5rem;
+  width: 120px;
+  color: #0A21C0;
+  background-color: #B3B4BD;
+}
+
+.searchDivBtn{
+  padding: 4px;
+  border-radius: 5px;
+  background-color: #e8a9b0;
+  color: whitesmoke;
+  font-family: 'Evo 2';
+  font: bold;
+  font-size: 1rem;
+}
+
+.searchSpan{
+  margin-left: 20px;
+}
+
+.searchForm{
+  padding-left: 300px;
+  margin-left: auto;
+}
+
+.hintsDiv{
+  display: flex;
+}
+
+.hint1Div{
+  
+  padding: 10px;
+}
+
+.hint2Div{
+  
+  padding: 10px;
+}
